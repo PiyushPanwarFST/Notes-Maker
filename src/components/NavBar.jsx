@@ -13,14 +13,6 @@ const NavBar = ({ obj, setObj, arr, setArr }) => {
     doc.save("a4.pdf");
   };
 
-  // const handleSubmitSearch = (e) => {
-  //   e.preventDefault();
-
-  //   // if (search === "") {
-  //   //   setArr[data];
-  //   // }
-  // };
-
   const handleSearch = (e) => {
     const searchData = e.target.value;
 
